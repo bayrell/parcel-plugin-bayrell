@@ -137,10 +137,10 @@ class AssetBay extends Asset
 	
 	async parse(code)
 	{
-		if (cache.build_bay_cache[this.name] != undefined)
+		/*if (cache.build_bay_cache[this.name] != undefined)
 		{
 			return cache.build_bay_cache[this.name];
-		}
+		}*/
 		
 		// console.log("Compile " + this.name);
 		

@@ -27,7 +27,7 @@ module.exports = function(bundler)
 	
 	bundler.addListener("buildStart", () =>
 	{
-		//console.log("buildStart");
+		// console.log("buildStart");
 		cache.build_bay_cache = {};
 	});
 	
