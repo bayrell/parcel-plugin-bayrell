@@ -1,0 +1,26 @@
+{
+	"description": "Bayrell Lang Compiler for Parcel",
+	"license": "Apache-2.0",
+	"contributors": [
+		{
+			"name": "Ildar Bikmamatov",
+			"email": "support@bayrell.org"
+		}
+	],
+	"files": [
+		"*.js"
+	],
+	"main": "index.js",
+	"name": "parcel-plugin-bayrell",
+	"version": "0.9.0",
+	"dependencies": {
+		"bayrell": "^0.8.3",
+		"bayrell-lang-nodejs": "~0.9.0",
+		"bayrell-runtime-nodejs": "~0.9.0",
+		"parcel": "^1.10.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bayrell/parcel-plugin-bayrell"
+	}
+}
